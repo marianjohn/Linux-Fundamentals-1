@@ -1,0 +1,22 @@
+#Basic Commands
+echo whoami
+echo hello friend
+whoami - To get username.
+
+#Filesystem Related
+ls - listing.
+cd - change directory.
+cat - concatenate.
+pwd - print working directory.
+
+#Finding, greping.
+wc -l access.log - It helps in finding the number of entries in a log files.
+find -name passwords.txt - Searches the directory for the filename "passwords.txt".
+find -name *.txt - Searches the directory for all the files with .txt format.
+grep "string you want to search" access.log - Searches whether the file have that string.
+
+#Linux Operators
+& - To perform background functions.
+&& - To combine two functions in a single line. 
+> - Redirects the result of a command to a file.
+>> - It appends the output of the command to the file no overwritten
